@@ -1,0 +1,1498 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GOMZI Supplements | Buy Supplements, Get the Gym Free | Surat</title>
+<meta name="description" content="Buy any GOMZI supplement worth ₹999 or more and get 1 month gym access free at Fitness with Gomzi – Vesu, Katargam and Adajan, Surat.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Poppins:wght@400;500;600&amp;display=swap">
+<style>
+body{margin:0;background:#FFFFFF}
+html{scroll-behavior:smooth}
+img{max-width:100%}
+a:focus-visible{outline:2px solid #5A2D1A;outline-offset:3px}
+@media (max-width:640px){h1{font-size:56px !important}h2{font-size:42px !important}}
+a{color:#141414}a:hover{color:#5A2D1A}
+
+/* INQUIRY FORM STYLES */
+.inq-input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 14px 16px;
+  font-family: 'Poppins', Arial, sans-serif;
+  font-size: 15px;
+  color: #141414;
+  background: #FFFFFF;
+  border: 1px solid #D6D6D2;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.inq-input:focus {
+  border-color: #5A2D1A;
+  box-shadow: 0 0 0 3px rgba(90, 45, 26, 0.12);
+}
+.inq-label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #141414;
+  margin-bottom: 6px;
+}
+.inq-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+@media (max-width: 768px) {
+  .inq-grid {
+    grid-template-columns: 1fr;
+  }
+}
+.inq-btn {
+  background: #141414;
+  color: #FFFFFF;
+  font-family: 'Bebas Neue', Impact, sans-serif;
+  font-size: 26px;
+  letter-spacing: 1px;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  transition: background 0.2s, transform 0.1s;
+}
+.inq-btn:hover:not(:disabled) {
+  background: #5A2D1A;
+}
+.inq-btn:active:not(:disabled) {
+  transform: translateY(1px);
+}
+.inq-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+.inq-spinner {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  border: 3px solid rgba(255,255,255,0.3);
+  border-radius: 50%;
+  border-top-color: #FFFFFF;
+  animation: inqSpin 0.8s linear infinite;
+}
+@keyframes inqSpin {
+  to { transform: rotate(360deg); }
+}
+.claim-pack-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: #141414;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 12px 20px;
+  border-radius: 6px;
+  margin-top: 14px;
+  cursor: pointer;
+  border: none;
+  transition: background 0.2s;
+}
+.claim-pack-btn:hover {
+  background: #5A2D1A;
+  color: #FFFFFF;
+}
+
+
+/* ==========================================================================
+   PRICES & OFFERS MODERN DESIGN SYSTEM
+   ========================================================================== */
+.price-section-wrap {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 80px 24px;
+}
+.offer-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+@media (max-width: 900px) {
+  .offer-cards-grid {
+    grid-template-columns: 1fr;
+  }
+}
+.offer-feature-card {
+  background: #FFFFFF;
+  border: 1px solid #E6E6E3;
+  border-radius: 10px;
+  padding: 24px;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+  display: flex;
+  flex-direction: column;
+}
+.offer-feature-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.06);
+  border-color: #5A2D1A;
+}
+.offer-card-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #5A2D1A;
+  background: #F8EFEA;
+  padding: 4px 10px;
+  border-radius: 20px;
+  width: fit-content;
+  margin-bottom: 14px;
+}
+.offer-card-tag.hot {
+  color: #B91C1C;
+  background: #FEE2E2;
+}
+.offer-card-tag.highlight {
+  color: #15803D;
+  background: #DCFCE7;
+}
+.offer-card-title {
+  margin: 0 0 8px;
+  font-family: 'Bebas Neue', Impact, sans-serif;
+  font-size: 32px;
+  line-height: 1.05;
+  color: #141414;
+}
+.offer-card-desc {
+  margin: 0 0 16px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #555555;
+  flex-grow: 1;
+}
+.offer-card-value {
+  background: #141414;
+  color: #FFFFFF;
+  border-radius: 6px;
+  padding: 10px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.offer-card-btn {
+  margin-top: 12px;
+  background: #5A2D1A;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 16px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  transition: background 0.2s;
+  width: 100%;
+}
+.offer-card-btn:hover {
+  background: #141414;
+}
+
+/* DIWALI BANNER */
+.diwali-ribbon-bar {
+  background: linear-gradient(90deg, #141414 0%, #3D1F12 50%, #141414 100%);
+  color: #FFFFFF;
+  border-radius: 8px;
+  padding: 16px 24px;
+  margin-bottom: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  border-left: 4px solid #F59E0B;
+}
+
+/* FILTERS & SEARCH BAR */
+.price-controls-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+.price-category-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.cat-pill-btn {
+  background: #F4F4F2;
+  border: 1px solid #E6E6E3;
+  color: #555555;
+  font-family: 'Poppins', Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.cat-pill-btn:hover {
+  background: #EAEAE6;
+  color: #141414;
+}
+.cat-pill-btn.active {
+  background: #141414;
+  border-color: #141414;
+  color: #FFFFFF;
+}
+.price-search-input {
+  padding: 9px 16px;
+  border: 1px solid #D6D6D2;
+  border-radius: 20px;
+  font-family: 'Poppins', Arial, sans-serif;
+  font-size: 13px;
+  color: #141414;
+  outline: none;
+  min-width: 220px;
+  transition: border-color 0.2s;
+}
+.price-search-input:focus {
+  border-color: #5A2D1A;
+}
+
+/* TABLE STYLING */
+.price-table-card {
+  background: #FFFFFF;
+  border: 1px solid #E6E6E3;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.03);
+}
+.custom-price-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14.5px;
+  text-align: left;
+}
+.custom-price-table th {
+  background: #F8F8F6;
+  padding: 16px 20px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: #555555;
+  border-bottom: 2px solid #E6E6E3;
+}
+.custom-price-table td {
+  padding: 18px 20px;
+  vertical-align: middle;
+  border-bottom: 1px solid #EEEEEC;
+  transition: background 0.15s;
+}
+.custom-price-table tr:hover td {
+  background: #FBFBFA;
+}
+.prod-cell {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.prod-thumb {
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  border-radius: 6px;
+  object-fit: cover;
+  background: #F4F4F2;
+  border: 1px solid #E6E6E3;
+}
+.prod-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.prod-title {
+  font-weight: 600;
+  color: #141414;
+  font-size: 15px;
+  line-height: 1.2;
+}
+.prod-subtitle {
+  font-size: 12px;
+  color: #71717A;
+}
+.prod-tag {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  padding: 2px 7px;
+  border-radius: 4px;
+  width: fit-content;
+  margin-top: 2px;
+}
+.prod-tag.gold {
+  background: #FEF3C7;
+  color: #92400E;
+}
+.prod-tag.red {
+  background: #FEE2E2;
+  color: #991B1B;
+}
+.prod-tag.blue {
+  background: #DBEAFE;
+  color: #1E40AF;
+}
+
+.size-pill {
+  display: inline-block;
+  background: #F4F4F2;
+  color: #374151;
+  font-size: 12.5px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+.price-val {
+  font-weight: 700;
+  color: #141414;
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+/* OFFER BADGES IN TABLE */
+.badge-offer-gym {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #ECFDF5;
+  color: #065F46;
+  border: 1px solid #A7F3D0;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 6px;
+  margin-bottom: 4px;
+  white-space: nowrap;
+}
+.badge-offer-gift {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #FFFBEB;
+  color: #92400E;
+  border: 1px solid #FDE68A;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+
+.table-claim-btn {
+  background: #141414;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 8px 16px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.table-claim-btn:hover {
+  background: #5A2D1A;
+  transform: translateY(-1px);
+}
+
+/* MOBILE CARD VIEW (Responsive) */
+.mobile-price-cards {
+  display: none;
+  flex-direction: column;
+  gap: 16px;
+}
+@media (max-width: 768px) {
+  .price-table-desktop {
+    display: none;
+  }
+  .mobile-price-cards {
+    display: flex;
+  }
+}
+.mob-price-card {
+  background: #FFFFFF;
+  border: 1px solid #E6E6E3;
+  border-radius: 10px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+.mob-price-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+.mob-price-card-offers {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background: #F8F8F6;
+  padding: 10px 12px;
+  border-radius: 6px;
+}
+
+</style>
+</head>
+<body>
+<div style="font-family: Poppins, Arial, sans-serif; color: #141414; background: #FFFFFF; width: 100%">
+
+<!-- NAV -->
+<header style="border-bottom: 1px solid #E6E6E3">
+<div style="max-width: 1180px; margin: 0 auto; padding: 18px 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px">
+<img src="images/logo.png" alt="GOMZI Supplements – The Legacy of RAG" style="height: 48px; width: auto; display: block">
+<nav style="display: flex; flex-wrap: wrap; align-items: center; gap: 28px; font-size: 14px; font-weight: 500">
+<a href="#offer" style="text-decoration: none">Offer</a>
+<a href="#packs" style="text-decoration: none">Packs</a>
+<a href="#prices" style="text-decoration: none">Prices</a>
+<a href="#visit" style="text-decoration: none">Visit us</a>
+<a href="#inquire" style="text-decoration: none; border: 1px solid #141414; color: #141414; padding: 12px 20px; border-radius: 6px; min-height: 44px; box-sizing: border-box; display: inline-flex; align-items: center; font-weight: 600">Claim Offer</a>
+<a href="https://wa.me/919875270200?text=Hi%20GOMZI%2C%20I%20want%20the%20free%20gym%20offer" style="text-decoration: none; background: #141414; color: #FFFFFF; padding: 12px 20px; border-radius: 6px; min-height: 44px; box-sizing: border-box; display: inline-flex; align-items: center">WhatsApp us</a>
+</nav>
+</div>
+</header>
+
+<!-- HERO -->
+<section>
+<div style="max-width: 1180px; margin: 0 auto; padding: 72px 24px 56px; display: flex; flex-wrap: wrap; align-items: center; gap: 48px">
+<div style="flex: 1 1 420px; min-width: 0">
+<p style="margin: 0 0 18px; font-size: 12px; font-weight: 600; letter-spacing: 2px; color: #5A2D1A">DIWALI LAUNCH OFFER · SURAT</p>
+<h1 style="margin: 0; font-family: 'Bebas Neue', Impact, sans-serif; font-weight: 400; font-size: 84px; line-height: 0.95; letter-spacing: 0.5px">Buy supplements.<br><span style="color: #5A2D1A">Get the gym free.</span></h1>
+<p style="margin: 24px 0 0; font-size: 18px; line-height: 1.6; color: #4A4A4A; max-width: 520px">Spend ₹999 or more on any GOMZI supplement and get <strong style="color: #141414; font-weight: 600">1 month of gym access free</strong> at Fitness with Gomzi – Vesu, Katargam or Adajan.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 12px; margin-top: 32px">
+<a href="#inquire" style="text-decoration: none; background: #5A2D1A; color: #FFFFFF; padding: 16px 28px; border-radius: 6px; font-size: 15px; font-weight: 600; min-height: 44px; box-sizing: border-box; display: inline-flex; align-items: center">Claim Your Free Gym Pass</a>
+<a href="https://wa.me/919875270200?text=Hi%20GOMZI%2C%20I%20want%20the%20free%20gym%20offer" style="text-decoration: none; background: #141414; color: #FFFFFF; padding: 16px 28px; border-radius: 6px; font-size: 15px; font-weight: 600; min-height: 44px; box-sizing: border-box; display: inline-flex; align-items: center">Claim on WhatsApp</a>
+<a href="#prices" style="text-decoration: none; border: 1px solid #141414; color: #141414; padding: 16px 28px; border-radius: 6px; font-size: 15px; font-weight: 600; min-height: 44px; box-sizing: border-box; display: inline-flex; align-items: center">See prices</a>
+</div>
+<p style="margin: 20px 0 0; font-size: 13px; color: #6B6B6B">Prices start at ₹1,499.</p>
+</div>
+<div style="flex: 1 1 440px; min-width: 0">
+<img src="images/hero-products.jpg" alt="The GOMZI supplement range" style="width: 100%; height: auto; display: block">
+</div>
+</div>
+</section>
+
+<!-- OFFER -->
+<section id="offer" style="background: #F4F4F2">
+<div style="max-width: 1180px; margin: 0 auto; padding: 80px 24px">
+<p style="margin: 0 0 12px; font-size: 12px; font-weight: 600; letter-spacing: 2px; color: #5A2D1A">THE OFFER</p>
+<h2 style="margin: 0; font-family: 'Bebas Neue', Impact, sans-serif; font-weight: 400; font-size: 56px; line-height: 1">Three simple rules.</h2>
+<div style="display: flex; flex-wrap: wrap; gap: 20px; margin-top: 40px">
+
+<div style="flex: 1 1 300px; min-width: 0; background: #FFFFFF; border-radius: 8px; padding: 28px; display: flex; flex-direction: column; gap: 16px">
+<div style="height: 160px; border-radius: 6px; background: #141414; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px">
+<span style="font-family: 'Bebas Neue', Impact, sans-serif; font-size: 44px; color: #FFFFFF; line-height: 1">Gym pass</span>
+<span style="font-size: 12px; font-weight: 600; letter-spacing: 2px; color: #BDBDBD">1 MONTH</span>
+</div>
+<h3 style="margin: 0; font-family: 'Bebas Neue', Impact, sans-serif; font-weight: 400; font-size: 32px; line-height: 1">Spend ₹999+</h3>
+<p style="margin: 0; font-size: 15px; font-weight: 600; color: #5A2D1A">1 month gym access free</p>
+<p style="margin: 0; font-size: 14px; line-height: 1.6; color: #555555">Any GOMZI bill of ₹999 or more. Train at any one of our 3 branches.</p>
+</div>
+
+<div style="flex: 1 1 300px; min-width: 0; background: #FFFFFF; border-radius: 8px; padding: 28px; display: flex; flex-direction: column; gap: 16px">
+<div style="height: 160px; border-radius: 6px; background: #F4F4F2; display: flex; align-items: center; justify-content: center; gap: 8px; padding: 10px; box-sizing: border-box">
+<img src="images/whey.jpg" alt="GOMZI Whey Protein 1kg" style="height: 130px; width: auto">
+<span style="font-family: 'Bebas Neue', Impact, sans-serif; font-size: 32px; color: #9A9A9A">+</span>
+<img src="images/creatine.jpg" alt="ATP Creatine 250g" style="height: 100px; width: auto">
+</div>
+<h3 style="margin: 0; font-family: 'Bebas Neue', Impact, sans-serif; font-weight: 400; font-size: 32px; line-height: 1">Buy 1kg whey</h3>
+<p style="margin: 0; font-size: 15px; font-weight: 600; color: #5A2D1A">Creatine 250g free + gym free</p>
+<p style="margin: 0; font-size: 14px; line-height: 1.6; color: #555555">Any 1kg Whey Blend, Concentrate or Isolate.</p>
+</div>
+
+<div style="flex: 1 1 300px; min-width: 0; background: #FFFFFF; border-radius: 8px; padding: 28px; display: flex; flex-direction: column; gap: 16px">
+<div style="height: 160px; border-radius: 6px; background: #F4F4F2; display: flex; align-items: center; justify-content: center; gap: 8px; padding: 10px; box-sizing: border-box">
+<img src="images/whey.jpg" alt="GOMZI Whey Protein 2kg" style="height: 130px; width: auto">
+<span style="font-family: 'Bebas Neue', Impact, sans-serif; font-size: 32px; color: #9A9A9A">+</span>
+<img src="images/bcaa.jpg" alt="GOMZI BCAA 250g" style="height: 100px; width: auto">
+</div>
+<h3 style="margin: 0; font-family: 'Bebas Neue', Impact, sans-serif; font-weight: 400; font-size: 32px; line-height: 1">Buy 2kg whey</h3>
+<p style="margin: 0; font-size: 15px; font-weight: 600; color: #5A2D1A">BCAA 250g free + gym free</p>
+<p style="margin: 0; font-size: 14px; line-height: 1.6; color: #555555">Any 2kg Whey Blend, Concentrate or Isolate.</p>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- PRICE PROMISE -->
+<section>
+<div style="max-width: 1180px; margin: 0 auto; padding: 80px 24px">
+<p style="margin: 0 0 12px; font-size: 12px; font-weight: 600; letter-spacing: 2px; color: #5A2D1A">THE GOMZI PRICE PROMISE</p>
+<h2 style="margin: 0; font-family: 'Bebas Neue', Impact, sans-serif; font-weight: 400; font-size: 56px; line-height: 1">Bhai, GOMZI ki taraf se.</h2>
+<p style="margin: 16px 0 0; font-size: 16px; line-height: 1.6; color: #555555; max-width: 640px">Gym fees, trainer and diet plan usually cost extra. With GOMZI you pay only for the supplement. The rest is on us.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 20px; margin-top: 40px; align-items: flex-start">
+
+<div style="flex: 1 1 300px; min-width: 0; border: 1px solid #E6E6E3; border-radius: 8px; padding: 28px">
+<p style="margin: 0 0 18px; font-family: 'Bebas Neue', Impact, sans-serif; font-size: 28px">Creatine starter</p>
+<div style="display: flex; justify-content: space-between; padding: 10px 0; border-top: 1px solid #EEEEEB; font-size: 14px"><span>ATP Creatine 250g</span><span style="font-weight: 500">₹1,499</span></div>
+<div style="display: flex; justify-content: space-between; padding: 10px 0; border-top: 1px solid #EEEEEB; font-size: 14px"><span>Gym, 1 month</span><span style="font-weight: 600; color: #5A2D1A">FREE</span></div>
+<div style="margin-top: 18px; background: #141414; color: #FFFFFF; border-radius: 6px; padding: 14px 18px; display: flex; justify-content: space-between; align-items: center"><span style="font-size: 12px; font-weight: 600; letter-spacing: 2px; color: #BDBDBD">YOU PAY</span><span style="font-family: 'Bebas Neue', Impact, sans-serif; font-size: 36px; line-height: 1">₹1,499</span></div>
+<button type="button" class="claim-pack-btn" style="width: 100%" onclick="selectPackage('Creatine Starter (₹1,499) → Gym Free')">Claim Offer &rarr;</button>
+</div>
+
+<div style="flex: 1 1 300px; min-width: 0; border: 1px solid #E6E6E3; border-radius: 8px; padding: 28px">
+<p style="margin: 0 0 18px; font-family: 'Bebas Neue', Impact, sans-serif; font-size: 28px">Whey 1kg</p>
+<div style="display: flex; justify-content: space-between; padding: 10px 0; border-top: 1px solid #EEEEEB; font-size: 14px"><span>Whey Protein Blend 1kg</span><span style="font-weight: 500">₹4,300</span></div>
+<div style="display: flex; justify-content: space-between; padding: 10px 0; border-top: 1px solid #EEEEEB; font-size: 14px"><span>ATP Creatine 250g</span><span><s style="color: #8A8A8A; margin-right: 8px">₹1,499</s><span style="font-weight: 600; color: #5A2D1A">FREE</span></span></div>
+<div style="display: flex; justify-content: space-between; padding: 10px 0; border-top: 1px solid #EEEEEB; font-size: 14px"><span>Gym, 1 month</span><span style="font-weight: 600; color: #5A2D1A">FREE</span></div>
+<div style="margin-top: 18px; background: #141414; color: #FFFFFF; border-radius: 6px; padding: 14px 18px; display: flex; justify-content: space-between; align-items: center"><span style="font-size: 12px; font-weight: 600; letter-spacing: 2px; color: #BDBDBD">YOU PAY</span><span style="font-family: 'Bebas Neue', Impact, sans-serif; font-size: 36px; line-height: 1">₹4,300</span></div>
+<button type="button" class="claim-pack-btn" style="width: 100%" onclick="selectPackage('Buy 1kg Whey (₹4,300) → Free Creatine 250g + Gym Free')">Claim Offer &rarr;</button>
+</div>
+
+<div style="flex: 1 1 300px; min-width: 0; border: 1px solid #E6E6E3; border-radius: 8px; padding: 28px">
+<p style="margin: 0 0 18px; font-family: 'Bebas Neue', Impact, sans-serif; font-size: 28px">Fat Loss Pack</p>
+<div style="display: flex; justify-content: space-between; padding: 10px 0; border-top: 1px solid #EEEEEB; font-size: 14px"><span>Whey Blend 1kg + Ignite Fat Burner</span><span style="font-weight: 500">₹8,500</span></div>
+<div style="display: flex; justify-content: space-between; padding: 10px 0; border-top: 1px solid #EEEEEB; font-size: 14px"><span>Gym, 1 month</span><span style="font-weight: 600; color: #5A2D1A">FREE</span></div>
+<div style="display: flex; justify-content: space-between; padding: 10px 0; border-top: 1px solid #EEEEEB; font-size: 14px"><span>Personal trainer, 1 month</span><span style="font-weight: 600; color: #5A2D1A">FREE</span></div>
+<div style="display: flex; justify-content: space-between; padding: 10px 0; border-top: 1px solid #EEEEEB; font-size: 14px"><span>Dietitian + diet plan</span><span style="font-weight: 600; color: #5A2D1A">FREE</span></div>
+<div style="display: flex; justify-content: space-between; padding: 10px 0; border-top: 1px solid #EEEEEB; font-size: 14px"><span>Blood test + body analysis</span><span style="font-weight: 600; color: #5A2D1A">FREE</span></div>
+<div style="margin-top: 18px; background: #141414; color: #FFFFFF; border-radius: 6px; padding: 14px 18px; display: flex; justify-content: space-between; align-items: center"><span style="font-size: 12px; font-weight: 600; letter-spacing: 2px; color: #BDBDBD">YOU PAY</span><span style="font-family: 'Bebas Neue', Impact, sans-serif; font-size: 36px; line-height: 1">₹8,500</span></div>
+<button type="button" class="claim-pack-btn" style="width: 100%" onclick="selectPackage('Fat Loss Pack (₹8,500)')">Claim Offer &rarr;</button>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- PACKS -->
+<section id="packs" style="background: #F4F4F2">
+<div style="max-width: 1180px; margin: 0 auto; padding: 80px 24px">
+<p style="margin: 0 0 12px; font-size: 12px; font-weight: 600; letter-spacing: 2px; color: #5A2D1A">TRANSFORMATION PACKS</p>
+<h2 style="margin: 0; font-family: 'Bebas Neue', Impact, sans-serif; font-weight: 400; font-size: 56px; line-height: 1">One pack. Everything included.</h2>
+<p style="margin: 16px 0 0; font-size: 16px; line-height: 1.6; color: #555555; max-width: 640px">Every pack comes with 1 month of gym, a personal trainer, a dietitian with a custom diet plan, a blood test and a full body analysis.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 20px; margin-top: 40px">
+
+<div style="flex: 1 1 440px; min-width: 0; background: #FFFFFF; border-radius: 8px; overflow: hidden; display: flex; flex-wrap: wrap">
+<img src="images/fat-loss-pack.jpg" alt="Member holding GOMZI Ignite Fat Burner in the gym" style="flex: 1 1 200px; min-width: 0; width: 200px; height: 340px; object-fit: cover; object-position: center top; display: block">
+<div style="flex: 1 1 240px; min-width: 0; padding: 32px; display: flex; flex-direction: column; gap: 12px">
+<h3 style="margin: 0; font-family: 'Bebas Neue', Impact, sans-serif; font-weight: 400; font-size: 40px; line-height: 1">Fat Loss Pack</h3>
+<p style="margin: 0; font-size: 28px; font-weight: 600; color: #5A2D1A">₹8,500</p>
+<p style="margin: 0; font-size: 14px; line-height: 1.7; color: #333333">Whey Protein Blend 1kg<br>Ignite Fat Burner 250g<br>+ all 5 services free</p>
+<p style="margin: auto 0 0; font-size: 14px; font-weight: 600; color: #141414">Mithai khao jalsa se, burn hum karwayenge.</p>
+<button type="button" class="claim-pack-btn" onclick="selectPackage('Fat Loss Pack (₹8,500)')">Claim Fat Loss Pack &rarr;</button>
+</div>
+</div>
+
+<div style="flex: 1 1 440px; min-width: 0; background: #FFFFFF; border-radius: 8px; overflow: hidden; display: flex; flex-wrap: wrap">
+<div style="flex: 1 1 200px; min-width: 0; height: 340px; background: #F4F4F2; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; padding: 16px; box-sizing: border-box; border: 8px solid #FFFFFF">
+<img src="images/whey.jpg" alt="GOMZI Whey Protein Concentrate 2kg" style="height: 150px; width: auto">
+<div style="display: flex; gap: 10px; align-items: center">
+<img src="images/creatine.jpg" alt="ATP Creatine 250g" style="height: 80px; width: auto">
+<img src="images/bcaa.jpg" alt="GOMZI BCAA 250g" style="height: 80px; width: auto">
+</div>
+</div>
+<div style="flex: 1 1 240px; min-width: 0; padding: 32px; display: flex; flex-direction: column; gap: 12px">
+<h3 style="margin: 0; font-family: 'Bebas Neue', Impact, sans-serif; font-weight: 400; font-size: 40px; line-height: 1">Muscle Building Pack</h3>
+<p style="margin: 0; font-size: 28px; font-weight: 600; color: #5A2D1A">₹11,500</p>
+<p style="margin: 0; font-size: 14px; line-height: 1.7; color: #333333">Whey Protein Concentrate 2kg<br>ATP Creatine 250g + BCAA 250g<br>+ all 5 services free</p>
+<p style="margin: auto 0 0; font-size: 14px; font-weight: 600; color: #141414">Muscle banane ka complete system.</p>
+<button type="button" class="claim-pack-btn" onclick="selectPackage('Muscle Building Pack (₹11,500)')">Claim Muscle Pack &rarr;</button>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- PRICES & EXCLUSIVE OFFERS -->
+<section id="prices" style="background: #FAFAF8; border-top: 1px solid #E6E6E3; border-bottom: 1px solid #E6E6E3">
+<div class="price-section-wrap">
+
+  <!-- Heading Block -->
+  <div style="text-align: center; max-width: 680px; margin: 0 auto">
+    <p style="margin: 0 0 10px; font-size: 12px; font-weight: 700; letter-spacing: 2.5px; color: #5A2D1A; text-transform: uppercase">EXCLUSIVE LAUNCH OFFERS · SURAT</p>
+    <h2 style="margin: 0; font-family: 'Bebas Neue', Impact, sans-serif; font-weight: 400; font-size: 64px; line-height: 0.95; letter-spacing: 0.5px">Transparent Pricing. <span style="color: #5A2D1A">Massive Free Value.</span></h2>
+    <p style="margin: 16px 0 0; font-size: 16px; line-height: 1.6; color: #555555">Pay only for your genuine supplements. Your gym membership, training, and extra performance gifts are 100% on us.</p>
+  </div>
+
+  <!-- 3 CORE OFFER CARDS (Highlighting the offer properly) -->
+  <div class="offer-cards-grid">
+    
+    <!-- Offer 1 -->
+    <div class="offer-feature-card">
+      <span class="offer-card-tag highlight">OFFER 1 · UNIVERSAL</span>
+      <h3 class="offer-card-title">Spend ₹999+ &rarr; 1 Month Free Gym</h3>
+      <p class="offer-card-desc">Buy any GOMZI supplement worth ₹999 or more and receive a full 1-month gym membership at Fitness with Gomzi (Vesu, Katargam or Adajan).</p>
+      <div class="offer-card-value">
+        <span>YOU SAVE / BENEFIT:</span>
+        <span style="color: #10B981; font-weight: 700">₹2,500 Gym Pass FREE</span>
+      </div>
+      <button type="button" class="offer-card-btn" onclick="selectPackage('Buy ₹999+ Any Supplement → 1 Month Free Gym')">Claim Free Gym Pass &rarr;</button>
+    </div>
+
+    <!-- Offer 2 -->
+    <div class="offer-feature-card" style="border-top: 3px solid #5A2D1A">
+      <span class="offer-card-tag gold">OFFER 2 · BEST VALUE</span>
+      <h3 class="offer-card-title">Buy 1kg Whey &rarr; Free Creatine + Gym</h3>
+      <p class="offer-card-desc">Buy any 1kg Whey Blend, Concentrate or Isolate. Get ATP Creatine 250g FREE + 1 month gym access included free.</p>
+      <div class="offer-card-value">
+        <span>FREE GIFTS:</span>
+        <span style="color: #FBBF24; font-weight: 700">₹3,999 Total Value FREE</span>
+      </div>
+      <button type="button" class="offer-card-btn" onclick="selectPackage('Buy 1kg Whey (₹4,300) → Free Creatine 250g + Gym Free')">Claim 1kg Whey + Creatine &rarr;</button>
+    </div>
+
+    <!-- Offer 3 -->
+    <div class="offer-feature-card" style="border-top: 3px solid #141414">
+      <span class="offer-card-tag hot">OFFER 3 · MAXIMUM GAINS</span>
+      <h3 class="offer-card-title">Buy 2kg Whey &rarr; Free BCAA + Gym</h3>
+      <p class="offer-card-desc">Buy any 2kg Whey tub. Get GOMZI BCAA 250g FREE + 1 month gym access at your branch of choice.</p>
+      <div class="offer-card-value">
+        <span>FREE GIFTS:</span>
+        <span style="color: #F87171; font-weight: 700">₹4,100 Total Value FREE</span>
+      </div>
+      <button type="button" class="offer-card-btn" onclick="selectPackage('Buy 2kg Whey (₹7,600) → Free BCAA 250g + Gym Free')">Claim 2kg Whey + BCAA &rarr;</button>
+    </div>
+
+  </div>
+
+  <!-- Diwali Launch Bonus Ribbon -->
+  <div class="diwali-ribbon-bar">
+    <div style="display: flex; align-items: center; gap: 14px">
+      <span style="font-size: 26px">🪔</span>
+      <div>
+        <strong style="font-size: 15px; letter-spacing: 0.5px">DIWALI LAUNCH SPECIAL BONUS</strong>
+        <p style="margin: 2px 0 0; font-size: 13px; color: #D1D5DB">All transformation pack bookings include a <strong>Free Shaker Bottle + 15 Extra Gym Days</strong> (Valid till Nov 30, 2026).</p>
+      </div>
+    </div>
+    <a href="#inquire" style="text-decoration: none; background: #FFFFFF; color: #141414; font-weight: 700; font-size: 13px; padding: 10px 18px; border-radius: 6px; white-space: nowrap">Claim Offer Now &rarr;</a>
+  </div>
+
+  <!-- Category Filter Pills & Search Bar (User-Friendly controls) -->
+  <div class="price-controls-bar">
+    <div class="price-category-pills">
+      <button type="button" class="cat-pill-btn active" onclick="filterPriceTable('all', this)">All Products (11)</button>
+      <button type="button" class="cat-pill-btn" onclick="filterPriceTable('whey', this)">Whey &amp; Proteins</button>
+      <button type="button" class="cat-pill-btn" onclick="filterPriceTable('recovery', this)">Performance &amp; Recovery</button>
+      <button type="button" class="cat-pill-btn" onclick="filterPriceTable('gain', this)">Mass Gain &amp; Fat Loss</button>
+      <button type="button" class="cat-pill-btn" onclick="filterPriceTable('daily', this)">Daily Essentials</button>
+    </div>
+    <input type="text" id="price_search_box" class="price-search-input" placeholder="🔍 Search supplements..." onkeyup="searchPriceTable(this.value)">
+  </div>
+
+  <!-- DESKTOP PRICING TABLE -->
+  <div class="price-table-card price-table-desktop">
+    <table class="custom-price-table">
+      <thead>
+        <tr>
+          <th style="width: 32%">PRODUCT</th>
+          <th style="width: 14%">SIZE</th>
+          <th style="width: 18%">PRICE</th>
+          <th style="width: 24%">FREE WITH IT (EXCLUSIVE OFFER)</th>
+          <th style="width: 12%; text-align: right">ACTION</th>
+        </tr>
+      </thead>
+      <tbody id="price_table_body">
+
+        <!-- 1. ATP Creatine -->
+        <tr data-cat="recovery" data-name="atp creatine">
+          <td>
+            <div class="prod-cell">
+              <img src="images/creatine.jpg" alt="ATP Creatine" class="prod-thumb">
+              <div class="prod-meta">
+                <span class="prod-title">ATP Creatine 200 Mesh</span>
+                <span class="prod-subtitle">Pure micronized creatine for explosive strength</span>
+                <span class="prod-tag blue">STRENGTH ESSENTIAL</span>
+              </div>
+            </div>
+          </td>
+          <td><span class="size-pill">250g</span></td>
+          <td><span class="price-val">₹1,499</span></td>
+          <td>
+            <div class="badge-offer-gym">🎟️ 1 Month Gym Free (₹2,500 value)</div>
+          </td>
+          <td style="text-align: right">
+            <button type="button" class="table-claim-btn" onclick="selectPackage('Creatine Starter (₹1,499) → Gym Free')">Claim &rarr;</button>
+          </td>
+        </tr>
+
+        <!-- 2. Whey Protein Blend -->
+        <tr data-cat="whey" data-name="whey protein blend" style="background: #FFFDF9">
+          <td>
+            <div class="prod-cell">
+              <img src="images/whey.jpg" alt="Whey Protein Blend" class="prod-thumb">
+              <div class="prod-meta">
+                <span class="prod-title">Whey Protein Blend</span>
+                <span class="prod-subtitle">Premium fast-absorbing multi-source whey</span>
+                <span class="prod-tag gold">MOST POPULAR · BEST VALUE</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <span class="size-pill">1kg</span> &nbsp;<span class="size-pill">2kg</span>
+          </td>
+          <td>
+            <div class="price-val">₹4,300 <span style="font-size: 13px; font-weight: normal; color: #71717A">/ ₹7,600</span></div>
+          </td>
+          <td>
+            <div class="badge-offer-gym">🎟️ 1 Month Gym Free</div><br>
+            <div class="badge-offer-gift">🎁 Free Creatine (1kg) or BCAA (2kg)</div>
+          </td>
+          <td style="text-align: right">
+            <button type="button" class="table-claim-btn" onclick="selectPackage('Buy 1kg Whey (₹4,300) → Free Creatine 250g + Gym Free')">Claim &rarr;</button>
+          </td>
+        </tr>
+
+        <!-- 3. Whey Concentrate -->
+        <tr data-cat="whey" data-name="whey concentrate">
+          <td>
+            <div class="prod-cell">
+              <img src="images/whey.jpg" alt="Whey Concentrate" class="prod-thumb">
+              <div class="prod-meta">
+                <span class="prod-title">Whey Protein Concentrate</span>
+                <span class="prod-subtitle">80% pure concentrate with rich BCAA profile</span>
+                <span class="prod-tag blue">MUSCLE BUILDING</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <span class="size-pill">1kg</span> &nbsp;<span class="size-pill">2kg</span>
+          </td>
+          <td>
+            <div class="price-val">₹5,300 <span style="font-size: 13px; font-weight: normal; color: #71717A">/ ₹8,600</span></div>
+          </td>
+          <td>
+            <div class="badge-offer-gym">🎟️ 1 Month Gym Free</div><br>
+            <div class="badge-offer-gift">🎁 Free Creatine (1kg) or BCAA (2kg)</div>
+          </td>
+          <td style="text-align: right">
+            <button type="button" class="table-claim-btn" onclick="selectPackage('Buy 1kg Whey (₹4,300) → Free Creatine 250g + Gym Free')">Claim &rarr;</button>
+          </td>
+        </tr>
+
+        <!-- 4. Whey Isolate -->
+        <tr data-cat="whey" data-name="whey isolate">
+          <td>
+            <div class="prod-cell">
+              <img src="images/whey.jpg" alt="Whey Isolate" class="prod-thumb">
+              <div class="prod-meta">
+                <span class="prod-title">Whey Protein Isolate</span>
+                <span class="prod-subtitle">90%+ ultra-pure isolate, zero sugar, ultra low carbs</span>
+                <span class="prod-tag gold">LEAN DEFINITION</span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <span class="size-pill">1kg</span> &nbsp;<span class="size-pill">2kg</span>
+          </td>
+          <td>
+            <div class="price-val">₹7,000 <span style="font-size: 13px; font-weight: normal; color: #71717A">/ ₹13,500</span></div>
+          </td>
+          <td>
+            <div class="badge-offer-gym">🎟️ 1 Month Gym Free</div><br>
+            <div class="badge-offer-gift">🎁 Free Creatine (1kg) or BCAA (2kg)</div>
+          </td>
+          <td style="text-align: right">
+            <button type="button" class="table-claim-btn" onclick="selectPackage('Buy 1kg Whey (₹4,300) → Free Creatine 250g + Gym Free')">Claim &rarr;</button>
+          </td>
+        </tr>
+
+        <!-- 5. Plant Protein -->
+        <tr data-cat="whey" data-name="plant protein">
+          <td>
+            <div class="prod-cell">
+              <div class="prod-thumb" style="display:flex;align-items:center;justify-content:center;font-size:20px">🌱</div>
+              <div class="prod-meta">
+                <span class="prod-title">GOMZI Plant Protein</span>
+                <span class="prod-subtitle">Pea &amp; brown rice isolate, 100% vegan digestion blend</span>
+                <span class="prod-tag blue">100% VEGAN</span>
+              </div>
+            </div>
+          </td>
+          <td><span class="size-pill">1kg</span> &nbsp;<span class="size-pill">2kg</span></td>
+          <td><div class="price-val">₹4,300 <span style="font-size: 13px; font-weight: normal; color: #71717A">/ ₹7,999</span></div></td>
+          <td><div class="badge-offer-gym">🎟️ 1 Month Gym Free (₹2,500 value)</div></td>
+          <td style="text-align: right">
+            <button type="button" class="table-claim-btn" onclick="selectPackage('Buy ₹999+ Any Supplement → 1 Month Free Gym')">Claim &rarr;</button>
+          </td>
+        </tr>
+
+        <!-- 6. Ignite Fat Burner -->
+        <tr data-cat="gain" data-name="ignite fat burner">
+          <td>
+            <div class="prod-cell">
+              <img src="images/fat-loss-pack.jpg" alt="Ignite Fat Burner" class="prod-thumb">
+              <div class="prod-meta">
+                <span class="prod-title">Ignite Fat Burner</span>
+                <span class="prod-subtitle">Thermogenic metabolism booster &amp; appetite regulator</span>
+                <span class="prod-tag red">FAST METABOLISM</span>
+              </div>
+            </div>
+          </td>
+          <td><span class="size-pill">250g</span></td>
+          <td><span class="price-val">₹4,200</span></td>
+          <td><div class="badge-offer-gym">🎟️ 1 Month Gym Free (₹2,500 value)</div></td>
+          <td style="text-align: right">
+            <button type="button" class="table-claim-btn" onclick="selectPackage('Fat Loss Pack (₹8,500)')">Claim &rarr;</button>
+          </td>
+        </tr>
+
+        <!-- 7. Mass Gainer -->
+        <tr data-cat="gain" data-name="mass gainer">
+          <td>
+            <div class="prod-cell">
+              <div class="prod-thumb" style="display:flex;align-items:center;justify-content:center;font-size:20px">⚡</div>
+              <div class="prod-meta">
+                <span class="prod-title">High Calorie Mass Gainer</span>
+                <span class="prod-subtitle">Complex carbs + high protein for rapid weight gain</span>
+                <span class="prod-tag blue">WEIGHT GAIN</span>
+              </div>
+            </div>
+          </td>
+          <td><span class="size-pill">1kg</span> &nbsp;<span class="size-pill">3kg</span></td>
+          <td><div class="price-val">₹1,499 <span style="font-size: 13px; font-weight: normal; color: #71717A">/ ₹4,100</span></div></td>
+          <td><div class="badge-offer-gym">🎟️ 1 Month Gym Free (₹2,500 value)</div></td>
+          <td style="text-align: right">
+            <button type="button" class="table-claim-btn" onclick="selectPackage('Buy ₹999+ Any Supplement → 1 Month Free Gym')">Claim &rarr;</button>
+          </td>
+        </tr>
+
+        <!-- 8. Pre-Workout -->
+        <tr data-cat="recovery" data-name="pre-workout">
+          <td>
+            <div class="prod-cell">
+              <div class="prod-thumb" style="display:flex;align-items:center;justify-content:center;font-size:20px">🔥</div>
+              <div class="prod-meta">
+                <span class="prod-title">Ultra Pre-Workout</span>
+                <span class="prod-subtitle">Caffeine + Citrulline for razor focus &amp; high pumps</span>
+                <span class="prod-tag red">HIGH ENERGY</span>
+              </div>
+            </div>
+          </td>
+          <td><span class="size-pill">250g</span></td>
+          <td><span class="price-val">₹2,700</span></td>
+          <td><div class="badge-offer-gym">🎟️ 1 Month Gym Free (₹2,500 value)</div></td>
+          <td style="text-align: right">
+            <button type="button" class="table-claim-btn" onclick="selectPackage('Buy ₹999+ Any Supplement → 1 Month Free Gym')">Claim &rarr;</button>
+          </td>
+        </tr>
+
+        <!-- 9. BCAA -->
+        <tr data-cat="recovery" data-name="bcaa">
+          <td>
+            <div class="prod-cell">
+              <img src="images/bcaa.jpg" alt="BCAA" class="prod-thumb">
+              <div class="prod-meta">
+                <span class="prod-title">GOMZI Pro BCAA 2:1:1</span>
+                <span class="prod-subtitle">Intra-workout hydration &amp; muscle anti-catabolic</span>
+                <span class="prod-tag blue">RECOVERY</span>
+              </div>
+            </div>
+          </td>
+          <td><span class="size-pill">250g</span></td>
+          <td><span class="price-val">₹1,600</span></td>
+          <td><div class="badge-offer-gym">🎟️ 1 Month Gym Free (₹2,500 value)</div></td>
+          <td style="text-align: right">
+            <button type="button" class="table-claim-btn" onclick="selectPackage('Buy ₹999+ Any Supplement → 1 Month Free Gym')">Claim &rarr;</button>
+          </td>
+        </tr>
+
+        <!-- 10. EAA -->
+        <tr data-cat="recovery" data-name="eaa">
+          <td>
+            <div class="prod-cell">
+              <div class="prod-thumb" style="display:flex;align-items:center;justify-content:center;font-size:20px">💧</div>
+              <div class="prod-meta">
+                <span class="prod-title">Complete EAA Blend</span>
+                <span class="prod-subtitle">All 9 essential amino acids with electrolyte hydration</span>
+                <span class="prod-tag blue">HYDRATION</span>
+              </div>
+            </div>
+          </td>
+          <td><span class="size-pill">250g</span></td>
+          <td><span class="price-val">₹2,100</span></td>
+          <td><div class="badge-offer-gym">🎟️ 1 Month Gym Free (₹2,500 value)</div></td>
+          <td style="text-align: right">
+            <button type="button" class="table-claim-btn" onclick="selectPackage('Buy ₹999+ Any Supplement → 1 Month Free Gym')">Claim &rarr;</button>
+          </td>
+        </tr>
+
+        <!-- 11. Peanut Butter -->
+        <tr data-cat="daily" data-name="peanut butter">
+          <td>
+            <div class="prod-cell">
+              <div class="prod-thumb" style="display:flex;align-items:center;justify-content:center;font-size:20px">🥜</div>
+              <div class="prod-meta">
+                <span class="prod-title">GOMZI Natural Peanut Butter</span>
+                <span class="prod-subtitle">100% roasted peanuts, zero hydrogenated oils, high protein</span>
+                <span class="prod-tag gold">DAILY NUTRITION</span>
+              </div>
+            </div>
+          </td>
+          <td><span class="size-pill">500g</span> &nbsp;<span class="size-pill">1kg</span></td>
+          <td><div class="price-val">₹350 <span style="font-size: 13px; font-weight: normal; color: #71717A">/ ₹650</span></div></td>
+          <td><div class="badge-offer-gym">🎟️ Free Gym Pass when bill reaches ₹999+</div></td>
+          <td style="text-align: right">
+            <button type="button" class="table-claim-btn" onclick="selectPackage('Buy ₹999+ Any Supplement → 1 Month Free Gym')">Claim &rarr;</button>
+          </td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+
+  <!-- MOBILE RESPONSIVE CARDS VIEW (Clean, touch-friendly) -->
+  <div class="mobile-price-cards" id="mobile_price_cards">
+    
+    <!-- Mob 1 -->
+    <div class="mob-price-card" data-cat="recovery" data-name="atp creatine">
+      <div class="mob-price-card-header">
+        <div>
+          <span class="prod-tag blue">STRENGTH ESSENTIAL</span>
+          <h4 style="margin: 6px 0 2px; font-size: 17px; color: #141414">ATP Creatine 200 Mesh</h4>
+          <span style="font-size: 12px; color: #71717A">250g jar</span>
+        </div>
+        <span class="price-val" style="font-size: 20px">₹1,499</span>
+      </div>
+      <div class="mob-price-card-offers">
+        <span class="badge-offer-gym">🎟️ 1 Month Free Gym Pass (Worth ₹2,500)</span>
+      </div>
+      <button type="button" class="table-claim-btn" style="justify-content: center; padding: 12px" onclick="selectPackage('Creatine Starter (₹1,499) → Gym Free')">Claim Offer &amp; Gym Pass &rarr;</button>
+    </div>
+
+    <!-- Mob 2 -->
+    <div class="mob-price-card" data-cat="whey" data-name="whey protein blend" style="border: 2px solid #5A2D1A">
+      <div class="mob-price-card-header">
+        <div>
+          <span class="prod-tag gold">MOST POPULAR · BEST VALUE</span>
+          <h4 style="margin: 6px 0 2px; font-size: 18px; color: #141414">Whey Protein Blend</h4>
+          <span style="font-size: 12px; color: #71717A">Available in 1kg &amp; 2kg</span>
+        </div>
+        <div style="text-align: right">
+          <span class="price-val" style="font-size: 20px">₹4,300</span>
+          <div style="font-size: 12px; color: #71717A">2kg: ₹7,600</div>
+        </div>
+      </div>
+      <div class="mob-price-card-offers">
+        <span class="badge-offer-gym">🎟️ 1 Month Gym Free at Vesu/Katargam/Adajan</span>
+        <span class="badge-offer-gift">🎁 FREE Creatine 250g (1kg) or BCAA (2kg)</span>
+      </div>
+      <button type="button" class="table-claim-btn" style="justify-content: center; padding: 12px; background: #5A2D1A" onclick="selectPackage('Buy 1kg Whey (₹4,300) → Free Creatine 250g + Gym Free')">Claim 1kg Whey + Free Creatine &rarr;</button>
+    </div>
+
+    <!-- Mob 3 -->
+    <div class="mob-price-card" data-cat="whey" data-name="whey concentrate">
+      <div class="mob-price-card-header">
+        <div>
+          <span class="prod-tag blue">MUSCLE BUILDING</span>
+          <h4 style="margin: 6px 0 2px; font-size: 17px; color: #141414">Whey Protein Concentrate</h4>
+          <span style="font-size: 12px; color: #71717A">1kg &amp; 2kg tubs</span>
+        </div>
+        <div style="text-align: right">
+          <span class="price-val" style="font-size: 20px">₹5,300</span>
+          <div style="font-size: 12px; color: #71717A">2kg: ₹8,600</div>
+        </div>
+      </div>
+      <div class="mob-price-card-offers">
+        <span class="badge-offer-gym">🎟️ 1 Month Gym Free</span>
+        <span class="badge-offer-gift">🎁 Free Creatine (1kg) or BCAA (2kg)</span>
+      </div>
+      <button type="button" class="table-claim-btn" style="justify-content: center; padding: 12px" onclick="selectPackage('Buy 1kg Whey (₹4,300) → Free Creatine 250g + Gym Free')">Claim Offer &rarr;</button>
+    </div>
+
+    <!-- Mob 4 -->
+    <div class="mob-price-card" data-cat="whey" data-name="whey isolate">
+      <div class="mob-price-card-header">
+        <div>
+          <span class="prod-tag gold">LEAN DEFINITION</span>
+          <h4 style="margin: 6px 0 2px; font-size: 17px; color: #141414">Whey Protein Isolate</h4>
+          <span style="font-size: 12px; color: #71717A">1kg &amp; 2kg tubs</span>
+        </div>
+        <div style="text-align: right">
+          <span class="price-val" style="font-size: 20px">₹7,000</span>
+          <div style="font-size: 12px; color: #71717A">2kg: ₹13,500</div>
+        </div>
+      </div>
+      <div class="mob-price-card-offers">
+        <span class="badge-offer-gym">🎟️ 1 Month Gym Free</span>
+        <span class="badge-offer-gift">🎁 Free Creatine (1kg) or BCAA (2kg)</span>
+      </div>
+      <button type="button" class="table-claim-btn" style="justify-content: center; padding: 12px" onclick="selectPackage('Buy 1kg Whey (₹4,300) → Free Creatine 250g + Gym Free')">Claim Offer &rarr;</button>
+    </div>
+
+    <!-- Mob 5 -->
+    <div class="mob-price-card" data-cat="gain" data-name="ignite fat burner">
+      <div class="mob-price-card-header">
+        <div>
+          <span class="prod-tag red">FAST METABOLISM</span>
+          <h4 style="margin: 6px 0 2px; font-size: 17px; color: #141414">Ignite Fat Burner</h4>
+          <span style="font-size: 12px; color: #71717A">250g jar</span>
+        </div>
+        <span class="price-val" style="font-size: 20px">₹4,200</span>
+      </div>
+      <div class="mob-price-card-offers">
+        <span class="badge-offer-gym">🎟️ 1 Month Gym Free (Worth ₹2,500)</span>
+      </div>
+      <button type="button" class="table-claim-btn" style="justify-content: center; padding: 12px" onclick="selectPackage('Fat Loss Pack (₹8,500)')">Claim Fat Loss Offer &rarr;</button>
+    </div>
+
+    <!-- Mob 6 -->
+    <div class="mob-price-card" data-cat="gain" data-name="mass gainer">
+      <div class="mob-price-card-header">
+        <div>
+          <span class="prod-tag blue">WEIGHT GAIN</span>
+          <h4 style="margin: 6px 0 2px; font-size: 17px; color: #141414">High Calorie Mass Gainer</h4>
+          <span style="font-size: 12px; color: #71717A">1kg &amp; 3kg tubs</span>
+        </div>
+        <div style="text-align: right">
+          <span class="price-val" style="font-size: 20px">₹1,499</span>
+          <div style="font-size: 12px; color: #71717A">3kg: ₹4,100</div>
+        </div>
+      </div>
+      <div class="mob-price-card-offers">
+        <span class="badge-offer-gym">🎟️ 1 Month Gym Free (Worth ₹2,500)</span>
+      </div>
+      <button type="button" class="table-claim-btn" style="justify-content: center; padding: 12px" onclick="selectPackage('Buy ₹999+ Any Supplement → 1 Month Free Gym')">Claim Offer &rarr;</button>
+    </div>
+
+    <!-- Mob 7 -->
+    <div class="mob-price-card" data-cat="recovery" data-name="pre-workout bcaa eaa">
+      <div class="mob-price-card-header">
+        <div>
+          <span class="prod-tag blue">PERFORMANCE TRIO</span>
+          <h4 style="margin: 6px 0 2px; font-size: 17px; color: #141414">Pre-Workout, BCAA &amp; EAA</h4>
+          <span style="font-size: 12px; color: #71717A">250g jars from ₹1,600</span>
+        </div>
+        <span class="price-val" style="font-size: 20px">From ₹1,600</span>
+      </div>
+      <div class="mob-price-card-offers">
+        <span class="badge-offer-gym">🎟️ 1 Month Gym Free on any of them!</span>
+      </div>
+      <button type="button" class="table-claim-btn" style="justify-content: center; padding: 12px" onclick="selectPackage('Buy ₹999+ Any Supplement → 1 Month Free Gym')">Claim Offer &rarr;</button>
+    </div>
+
+    <!-- Mob 8 -->
+    <div class="mob-price-card" data-cat="daily" data-name="peanut butter">
+      <div class="mob-price-card-header">
+        <div>
+          <span class="prod-tag gold">DAILY NUTRITION</span>
+          <h4 style="margin: 6px 0 2px; font-size: 17px; color: #141414">Natural Peanut Butter</h4>
+          <span style="font-size: 12px; color: #71717A">500g &amp; 1kg jars</span>
+        </div>
+        <div style="text-align: right">
+          <span class="price-val" style="font-size: 20px">₹350</span>
+          <div style="font-size: 12px; color: #71717A">1kg: ₹650</div>
+        </div>
+      </div>
+      <div class="mob-price-card-offers">
+        <span class="badge-offer-gym">🎟️ Free Gym Pass when bill reaches ₹999+</span>
+      </div>
+      <button type="button" class="table-claim-btn" style="justify-content: center; padding: 12px" onclick="selectPackage('Buy ₹999+ Any Supplement → 1 Month Free Gym')">Claim Offer &rarr;</button>
+    </div>
+
+  </div>
+
+  <!-- Trust / Guarantee Strip -->
+  <div style="margin-top: 32px; background: #FFFFFF; border: 1px solid #E6E6E3; border-radius: 8px; padding: 20px 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-around; gap: 20px; font-size: 13.5px; color: #4B5563">
+    <div style="display: flex; align-items: center; gap: 8px">
+      <span style="font-size: 18px">🛡️</span>
+      <span><strong>100% Authentic</strong> direct from manufacturer</span>
+    </div>
+    <div style="display: flex; align-items: center; gap: 8px">
+      <span style="font-size: 18px">🏢</span>
+      <span><strong>3 Surat Gym Branches:</strong> Vesu, Katargam &amp; Adajan</span>
+    </div>
+    <div style="display: flex; align-items: center; gap: 8px">
+      <span style="font-size: 18px">⚡</span>
+      <span><strong>Instant Pass Activation:</strong> within 15 days</span>
+    </div>
+  </div>
+
+</div>
+</section>
+
+<!-- MEMBERS -->
+<section style="background: #F4F4F2">
+<div style="max-width: 1180px; margin: 0 auto; padding: 80px 24px">
+<p style="margin: 0 0 12px; font-size: 12px; font-weight: 600; letter-spacing: 2px; color: #5A2D1A">THE GOMZI FAMILY</p>
+<h2 style="margin: 0; font-family: 'Bebas Neue', Impact, sans-serif; font-weight: 400; font-size: 56px; line-height: 1">Real people. Real gains.</h2>
+<div style="display: flex; flex-wrap: wrap; gap: 20px; margin-top: 40px">
+<img src="images/member-1.jpg" alt="GOMZI members holding whey protein in store" style="flex: 1 1 280px; min-width: 0; width: 280px; height: 380px; object-fit: cover; object-position: center 35%; border-radius: 8px; display: block">
+<img src="images/member-2.jpg" alt="GOMZI members with whey protein and BCAA" style="flex: 1 1 280px; min-width: 0; width: 280px; height: 380px; object-fit: cover; object-position: center 35%; border-radius: 8px; display: block">
+<img src="images/member-3.jpg" alt="GOMZI member with three whey concentrate tubs" style="flex: 1 1 280px; min-width: 0; width: 280px; height: 380px; object-fit: cover; object-position: center 40%; border-radius: 8px; display: block">
+</div>
+</div>
+</section>
+
+<!-- VISIT -->
+<section id="visit">
+<div style="max-width: 1180px; margin: 0 auto; padding: 80px 24px">
+<p style="margin: 0 0 12px; font-size: 12px; font-weight: 600; letter-spacing: 2px; color: #5A2D1A">VISIT US</p>
+<h2 style="margin: 0; font-family: 'Bebas Neue', Impact, sans-serif; font-weight: 400; font-size: 56px; line-height: 1">3 gyms. 1 family.</h2>
+<div style="display: flex; flex-wrap: wrap; gap: 20px; margin-top: 40px">
+<div style="flex: 1 1 260px; min-width: 0; border: 1px solid #E6E6E3; border-radius: 8px; padding: 28px">
+<p style="margin: 0; font-family: 'Bebas Neue', Impact, sans-serif; font-size: 34px; line-height: 1">Vesu</p>
+<p style="margin: 10px 0 0; font-size: 14px; color: #555555">Fitness with Gomzi, Vesu, Surat<br>[Full address]</p>
+</div>
+<div style="flex: 1 1 260px; min-width: 0; border: 1px solid #E6E6E3; border-radius: 8px; padding: 28px">
+<p style="margin: 0; font-family: 'Bebas Neue', Impact, sans-serif; font-size: 34px; line-height: 1">Katargam</p>
+<p style="margin: 10px 0 0; font-size: 14px; color: #555555">Fitness with Gomzi, Katargam, Surat<br>[Full address]</p>
+</div>
+<div style="flex: 1 1 260px; min-width: 0; border: 1px solid #E6E6E3; border-radius: 8px; padding: 28px">
+<p style="margin: 0; font-family: 'Bebas Neue', Impact, sans-serif; font-size: 34px; line-height: 1">Adajan</p>
+<p style="margin: 10px 0 0; font-size: 14px; color: #555555">Fitness with Gomzi, Adajan, Surat<br>[Full address]</p>
+</div>
+</div>
+
+<div style="margin-top: 56px; background: #141414; border-radius: 8px; padding: 48px 40px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 28px">
+<div style="flex: 1 1 360px; min-width: 0">
+<p style="margin: 0; font-family: 'Bebas Neue', Impact, sans-serif; font-size: 48px; line-height: 1; color: #FFFFFF">Buy supplements. Get the gym free.</p>
+<p style="margin: 14px 0 0; font-size: 15px; color: #BDBDBD">Call or WhatsApp +91 98752 70200 · info@ragnutrition.in</p>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 12px">
+<a href="#inquire" style="text-decoration: none; background: #5A2D1A; color: #FFFFFF; padding: 16px 28px; border-radius: 6px; font-size: 15px; font-weight: 600; min-height: 44px; box-sizing: border-box; display: inline-flex; align-items: center">Claim Offer Online</a>
+<a href="https://wa.me/919875270200?text=Hi%20GOMZI%2C%20I%20want%20the%20free%20gym%20offer" style="text-decoration: none; background: #FFFFFF; color: #141414; padding: 16px 28px; border-radius: 6px; font-size: 15px; font-weight: 600; min-height: 44px; box-sizing: border-box; display: inline-flex; align-items: center">WhatsApp us</a>
+</div>
+</div>
+</div>
+</section>
+
+
+<!-- INQUIRY FORM SECTION (Connected to RAG CRM) -->
+<section id="inquire" style="background: #F4F4F2; border-top: 1px solid #E6E6E3">
+<div style="max-width: 880px; margin: 0 auto; padding: 80px 24px">
+  <div style="text-align: center; max-width: 640px; margin: 0 auto 40px">
+    <p style="margin: 0 0 12px; font-size: 12px; font-weight: 600; letter-spacing: 2px; color: #5A2D1A">CLAIM YOUR FREE GYM PASS · SURAT</p>
+    <h2 style="margin: 0; font-family: 'Bebas Neue', Impact, sans-serif; font-weight: 400; font-size: 56px; line-height: 1">Claim your offer.</h2>
+    <p style="margin: 16px 0 0; font-size: 15px; line-height: 1.6; color: #555555">Spend ₹999 or more on any GOMZI supplement and get 1 month of gym access free at Vesu, Katargam or Adajan. Fill in your details below and our team will get in touch to confirm your pass.</p>
+  </div>
+
+  <div style="background: #FFFFFF; border-radius: 12px; border: 1px solid #E6E6E3; padding: 40px 36px; box-shadow: 0 4px 20px rgba(0,0,0,0.04)">
+    
+    <!-- Error Alert Box -->
+    <div id="inq_error_box" style="display: none; background: #FEF2F2; border: 1px solid #FECACA; color: #991B1B; padding: 14px 18px; border-radius: 6px; font-size: 14px; margin-bottom: 24px"></div>
+
+    <!-- Inquiry Form -->
+    <form id="gomzi_inquiry_form" onsubmit="handleInquirySubmit(event)">
+      <div class="inq-grid">
+        <div>
+          <label class="inq-label" for="inq_name">Full Name <span style="color: #DC2626">*</span></label>
+          <input type="text" id="inq_name" class="inq-input" required placeholder="e.g. Rahul Sharma" autocomplete="name">
+        </div>
+        <div>
+          <label class="inq-label" for="inq_mobile">Phone / WhatsApp Number <span style="color: #DC2626">*</span></label>
+          <input type="tel" id="inq_mobile" class="inq-input" required placeholder="e.g. 98752 70200" maxlength="15" autocomplete="tel">
+        </div>
+      </div>
+
+      <div class="inq-grid" style="margin-top: 20px">
+        <div>
+          <label class="inq-label" for="inq_email">Email Address <span style="color: #DC2626">*</span></label>
+          <input type="email" id="inq_email" class="inq-input" required placeholder="e.g. rahul@example.com" autocomplete="email">
+        </div>
+        <div>
+          <label class="inq-label" for="inq_branch">Nearest Gym Branch <span style="color: #DC2626">*</span></label>
+          <select id="inq_branch" class="inq-input" required>
+            <option value="Vesu">Fitness with Gomzi – Vesu, Surat</option>
+            <option value="Katargam">Fitness with Gomzi – Katargam, Surat</option>
+            <option value="Adajan">Fitness with Gomzi – Adajan, Surat</option>
+          </select>
+        </div>
+      </div>
+
+      <div style="margin-top: 20px">
+        <label class="inq-label" for="inq_pack">Offer / Product Interested In <span style="color: #DC2626">*</span></label>
+        <select id="inq_pack" class="inq-input" required>
+          <option value="Buy ₹999+ Any Supplement → 1 Month Free Gym">🎁 Spend ₹999+ on Any Supplement → 1 Month Gym Free</option>
+          <option value="Buy 1kg Whey (₹4,300) → Free Creatine 250g + Gym Free">⚡ Buy 1kg Whey Blend (₹4,300) → Free Creatine 250g + Gym Free</option>
+          <option value="Buy 2kg Whey (₹7,600) → Free BCAA 250g + Gym Free">🔥 Buy 2kg Whey Blend (₹7,600) → Free BCAA 250g + Gym Free</option>
+          <option value="Whey Concentrate → Free Creatine/BCAA + Gym Free">💪 Whey Concentrate (₹5,300/₹8,600) → Free Creatine/BCAA + Gym</option>
+          <option value="Whey Isolate → Free Creatine/BCAA + Gym Free">✨ Whey Isolate (₹7,000/₹13,500) → Free Creatine/BCAA + Gym</option>
+          <option value="Plant Protein → 1 Month Free Gym">🌱 Plant Protein (₹4,300/₹7,999) → 1 Month Gym Free</option>
+          <option value="Fat Loss Pack (₹8,500)">🔥 Fat Loss Transformation Pack – ₹8,500 (All 5 Services Free)</option>
+          <option value="Muscle Building Pack (₹11,500)">🏋️ Muscle Building Transformation Pack – ₹11,500 (All 5 Services Free)</option>
+          <option value="Creatine Starter (₹1,499) → Gym Free">⚡ ATP Creatine Starter (₹1,499) → 1 Month Gym Free</option>
+          <option value="Mass Gainer (₹1,499/₹4,100) → Gym Free">📦 High Calorie Mass Gainer → 1 Month Gym Free</option>
+          <option value="Pre-Workout (₹2,700) → Gym Free">💥 Ultra Pre-Workout (₹2,700) → 1 Month Gym Free</option>
+          <option value="BCAA (₹1,600) / EAA (₹2,100) → Gym Free">💧 BCAA / EAA Hydration → 1 Month Gym Free</option>
+          <option value="Peanut Butter Combo (₹999+) → Gym Free">🥜 Natural Peanut Butter Combo (₹999+) → 1 Month Gym Free</option>
+          <option value="General Offer Inquiry">💬 Other / Custom Offer Inquiry</option>
+        </select>
+      </div>
+
+      <div style="margin-top: 20px">
+        <label class="inq-label" for="inq_message">Fitness Goal or Questions <span style="color: #6B6B6B; font-weight: 400">(Optional)</span></label>
+        <textarea id="inq_message" class="inq-input" rows="3" placeholder="Tell us your current fitness goal (weight loss, muscle gain) or any questions..."></textarea>
+      </div>
+
+      <div style="margin-top: 28px">
+        <button type="submit" id="inq_submit_btn" class="inq-btn">
+          <span>CLAIM YOUR FREE GYM PASS</span>
+          <span style="font-size: 28px; line-height: 1">&rarr;</span>
+        </button>
+      </div>
+
+      <div style="margin-top: 14px; text-align: center; font-size: 12px; color: #6B6B6B">
+        <span>🔒 Your details are secure. Our team will contact you to activate your pass at Fitness with Gomzi.</span>
+      </div>
+    </form>
+
+    <!-- Success Box (Shows after CRM submission) -->
+    <div id="inq_success_box" style="display: none; text-align: center; padding: 20px 10px">
+      <div style="width: 64px; height: 64px; background: #ECFDF5; border: 2px solid #A7F3D0; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="20 6 9 17 4 12"></polyline>
+        </svg>
+      </div>
+      <h3 style="margin: 0; font-family: 'Bebas Neue', Impact, sans-serif; font-size: 42px; line-height: 1; color: #141414">Inquiry Submitted Successfully!</h3>
+      <p id="inq_success_msg" style="margin: 14px auto 0; font-size: 15px; line-height: 1.6; color: #4A4A4A; max-width: 540px">Thank you! Your inquiry has been saved to the RAG CRM. Our team will contact you shortly to activate your free 1-month gym membership.</p>
+      
+      <div style="margin-top: 28px; display: flex; flex-wrap: wrap; justify-content: center; gap: 14px">
+        <a id="inq_whatsapp_direct" href="https://wa.me/919875270200" target="_blank" style="text-decoration: none; background: #25D366; color: #FFFFFF; font-weight: 600; font-size: 15px; padding: 14px 28px; border-radius: 6px; display: inline-flex; align-items: center; gap: 8px">
+          <span>Confirm on WhatsApp now &rarr;</span>
+        </a>
+        <button type="button" onclick="resetInquiryForm()" style="background: transparent; border: 1px solid #141414; color: #141414; font-weight: 600; font-size: 14px; padding: 14px 24px; border-radius: 6px; cursor: pointer">
+          Submit Another Inquiry
+        </button>
+      </div>
+    </div>
+
+  </div>
+</div>
+</section>
+
+<!-- SCRIPT: RAG CRM INQUIRY INTEGRATION -->
+<script>
+
+// Client-side Price Table Category Filter & Search
+function filterPriceTable(category, buttonElem) {
+  var buttons = document.querySelectorAll('.cat-pill-btn');
+  buttons.forEach(function(b) { b.classList.remove('active'); });
+  if (buttonElem) buttonElem.classList.add('active');
+
+  var rows = document.querySelectorAll('#price_table_body tr');
+  rows.forEach(function(row) {
+    var cat = row.getAttribute('data-cat');
+    if (category === 'all' || cat === category) {
+      row.style.display = '';
+    } else {
+      row.style.display = 'none';
+    }
+  });
+
+  var mobCards = document.querySelectorAll('#mobile_price_cards .mob-price-card');
+  mobCards.forEach(function(card) {
+    var cat = card.getAttribute('data-cat');
+    if (category === 'all' || cat === category) {
+      card.style.display = '';
+    } else {
+      card.style.display = 'none';
+    }
+  });
+}
+
+function searchPriceTable(keyword) {
+  var q = (keyword || '').toLowerCase().trim();
+  var rows = document.querySelectorAll('#price_table_body tr');
+  rows.forEach(function(row) {
+    var text = (row.textContent || '').toLowerCase();
+    if (!q || text.indexOf(q) !== -1) {
+      row.style.display = '';
+    } else {
+      row.style.display = 'none';
+    }
+  });
+
+  var mobCards = document.querySelectorAll('#mobile_price_cards .mob-price-card');
+  mobCards.forEach(function(card) {
+    var text = (card.textContent || '').toLowerCase();
+    if (!q || text.indexOf(q) !== -1) {
+      card.style.display = '';
+    } else {
+      card.style.display = 'none';
+    }
+  });
+}
+
+function selectPackage(packageName) {
+  var selectElem = document.getElementById('inq_pack');
+  if (selectElem && packageName) {
+    for (var i = 0; i < selectElem.options.length; i++) {
+      if (selectElem.options[i].value.indexOf(packageName) !== -1 || packageName.indexOf(selectElem.options[i].value) !== -1) {
+        selectElem.selectedIndex = i;
+        break;
+      }
+    }
+  }
+  var inquireSection = document.getElementById('inquire');
+  if (inquireSection) {
+    inquireSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+}
+
+function resetInquiryForm() {
+  var form = document.getElementById('gomzi_inquiry_form');
+  var successBox = document.getElementById('inq_success_box');
+  var errorBox = document.getElementById('inq_error_box');
+  if (form) {
+    form.reset();
+    form.style.display = 'block';
+  }
+  if (successBox) successBox.style.display = 'none';
+  if (errorBox) errorBox.style.display = 'none';
+}
+
+async function handleInquirySubmit(event) {
+  event.preventDefault();
+  
+  var name = document.getElementById('inq_name').value.trim();
+  var mobile = document.getElementById('inq_mobile').value.trim();
+  var email = document.getElementById('inq_email').value.trim();
+  var branch = document.getElementById('inq_branch').value;
+  var pack = document.getElementById('inq_pack').value;
+  var userMessage = document.getElementById('inq_message').value.trim();
+  
+  var errorBox = document.getElementById('inq_error_box');
+  var submitBtn = document.getElementById('inq_submit_btn');
+  
+  errorBox.style.display = 'none';
+  errorBox.textContent = '';
+  
+  // Validation
+  if (!name || name.length < 2) {
+    errorBox.textContent = 'Please enter your full name.';
+    errorBox.style.display = 'block';
+    return;
+  }
+  
+  // Clean phone number (extract digits)
+  var cleanPhone = mobile.replace(/[^0-9]/g, '');
+  if (cleanPhone.length > 10 && cleanPhone.startsWith('91')) {
+    cleanPhone = cleanPhone.slice(2);
+  }
+  if (cleanPhone.length < 10) {
+    errorBox.textContent = 'Please enter a valid 10-digit mobile number.';
+    errorBox.style.display = 'block';
+    return;
+  }
+  
+  var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  if (!email || !emailRegex.test(email)) {
+    errorBox.textContent = 'Please enter a valid email address.';
+    errorBox.style.display = 'block';
+    return;
+  }
+  
+  // Loading state
+  submitBtn.disabled = true;
+  submitBtn.innerHTML = '<span class="inq-spinner"></span><span>CONNECTING TO CRM...</span>';
+  
+  var subject = 'Offer Inquiry - ' + branch + ' - ' + pack;
+  var message = userMessage 
+    ? userMessage + '\n\n[Package Interest: ' + pack + ' | Gym Branch: ' + branch + ']'
+    : 'Customer inquired to claim offer: ' + pack + ' at Fitness with Gomzi (' + branch + ' branch).';
+  
+  var sourceUrl = (window.location.href && window.location.href.startsWith('http')) 
+    ? window.location.href 
+    : 'https://ragnutrition.in/gomzi-landing';
+    
+  var payload = {
+    name: name,
+    email: email,
+    mobile: cleanPhone,
+    subject: subject,
+    message: message,
+    source: sourceUrl,
+    details: {
+      campaign: 'Buy Supplements Get Gym Free (Diwali Launch)',
+      branch: branch,
+      package_interest: pack,
+      landing_page: 'GOMZI Offer Landing',
+      page_url: sourceUrl,
+      submitted_at: new Date().toISOString()
+    }
+  };
+  
+  var apiBase = (window.GOMZI_API_URL || 'https://api.ragnutrition.in').replace(/\/+$/, '');
+  var endpoint = apiBase + '/public/v1/contact-inquiry';
+  
+  try {
+    var response = await fetch(endpoint, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+      },
+      body: JSON.stringify(payload)
+    });
+    
+    var data = await response.json().catch(function() { return {}; });
+    
+    if (response.ok && (data.status === 200 || data.response === 'Success' || data.response === 'OK' || data.data)) {
+      // Success
+      document.getElementById('gomzi_inquiry_form').style.display = 'none';
+      var successBox = document.getElementById('inq_success_box');
+      document.getElementById('inq_success_msg').textContent = 
+        'Thank you, ' + name + '! Your inquiry for the ' + pack + ' at ' + branch + ' branch has been registered in the RAG CRM. Our team will contact you shortly to activate your free 1-month gym membership.';
+      
+      // WhatsApp prefill
+      var waText = encodeURIComponent('Hi GOMZI! I just submitted an offer inquiry on your website.\nName: ' + name + '\nBranch: ' + branch + '\nOffer: ' + pack + '\nPhone: ' + cleanPhone);
+      document.getElementById('inq_whatsapp_direct').href = 'https://wa.me/919875270200?text=' + waText;
+      
+      successBox.style.display = 'block';
+      successBox.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    } else {
+      var errMsg = data.message || 'Unable to submit your inquiry at this moment. Please call or WhatsApp us at +91 98752 70200.';
+      errorBox.textContent = errMsg;
+      errorBox.style.display = 'block';
+    }
+  } catch (err) {
+    console.error('Inquiry submission error:', err);
+    errorBox.textContent = 'Network error while submitting your inquiry. Please check your internet connection or WhatsApp us directly at +91 98752 70200.';
+    errorBox.style.display = 'block';
+  } finally {
+    submitBtn.disabled = false;
+    submitBtn.innerHTML = '<span>CLAIM YOUR FREE GYM PASS</span><span style="font-size: 28px; line-height: 1">&rarr;</span>';
+  }
+}
+</script>
+
+<!-- FOOTER -->
+<footer style="border-top: 1px solid #E6E6E3">
+<div style="max-width: 1180px; margin: 0 auto; padding: 32px 24px 40px; display: flex; flex-direction: column; gap: 14px">
+<p style="margin: 0; font-size: 13px; color: #555555">Store and head office: G-23, Time Square, Gaurav Path Road, beside Gajera Global School, Adajan, Pal Gam, Surat, Gujarat 394510 · www.ragnutrition.in</p>
+<p style="margin: 0; font-size: 12px; line-height: 1.6; color: #6B6B6B">Terms: One gym pass per bill, to be activated within 15 days at any one branch. Free Creatine or BCAA applies to whey bought separately, not to whey inside packs. Pack services to be booked within 30 days. Personal training slots are limited. Offers cannot be combined. Diwali Launch Bonus (free shaker and 15 extra gym days on packs) valid till 30 Nov 2026.</p>
+</div>
+</footer>
+
+</div>
+</body>
+</html>
